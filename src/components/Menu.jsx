@@ -3,13 +3,17 @@ function Menu(props) {
     <div className="menu">
       <div className="menu-items">
         <div className="menu-item">
-          <p className="text-menu gap"></p>
+          <p className="text-menu gap">Background:</p>
           <input type="text gap" className="input" />
         </div>
         <div className="menu-item">
           <button className="btn gap">Buscar Background</button>
-          <button className="btn gap">Adicionar Linha</button>
-          <button className="btn gap">Remover Linha</button>
+          <button className="btn gap" onClick={() => props.addLine()}>
+            Adicionar Linha
+          </button>
+          <button className="btn gap" onClick={() => props.remLine()}>
+            Remover Linha
+          </button>
         </div>
         <div className="menu-item check">
           <input

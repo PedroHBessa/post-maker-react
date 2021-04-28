@@ -9,7 +9,7 @@ function Panel(props) {
         <div className={props.display}>
           <span>AO VIVO</span>
         </div>
-        <div className="panel-items"></div>
+        <div className="panel-items">{props.items}</div>
         <div className="panel-footer">
           <p className="panel-footer-tittle">O MELHOR DO ESPORTE</p>
           <p className="panel-footer-content">TODOS OS DIAS</p>

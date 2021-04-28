@@ -67,6 +67,7 @@ figure {
   font-size: 100%;
   font-family: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 body {
@@ -141,6 +142,11 @@ button {
   border: red solid 1px;
   padding: 20px;
   background-color: #1e1e1e;
+  margin-top: 100px;
+}
+
+.panel-tittle {
+  margin: 0 5px;
 }
 
 .panel-tittle-text {
@@ -158,6 +164,7 @@ button {
 }
 
 .panel-btn {
+  border: red solid 1px;
 }
 
 .panel-btn-content {
@@ -168,8 +175,10 @@ button {
   box-sizing: content-box;
   font-family: "ESPNPro Loud";
   font-style: italic;
-  font-size: 14px;
+  font-size: 12px;
   clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+  width: 15%;
+  margin: 0 5px;
 }
 
 .panel-footer-tittle {
@@ -189,4 +198,24 @@ button {
 
 .display-none {
   display: none;
+}
+
+.panel-items {
+  margin: 10px 5px;
+  background-color: black;
+}
+
+.panel-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+.panel-text {
+  color: #ffffff;
+}
+
+.panel-time {
+  color: #ffffff;
 }
