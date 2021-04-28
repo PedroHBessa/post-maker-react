@@ -1,0 +1,192 @@
+/*--------------RESET----------------*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #4c6666;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 1.2em;
+}
+
+.menu {
+  background: #407f7f;
+}
+
+.menu-items {
+  display: flex;
+  max-width: 1000px;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.text-menu {
+  font-size: 1.1em;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.menu-item input {
+  height: 30px;
+}
+
+.gap {
+  margin-right: 5px;
+}
+
+.menu-item button {
+  background: #669999;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item button:hover {
+  background: #226666;
+  color: #ffffff;
+}
+
+.check {
+  justify-content: none;
+}
+
+.panel-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: red solid 1px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  border: red solid 1px;
+  padding: 20px;
+  background-color: #1e1e1e;
+}
+
+.panel-tittle-text {
+  font-family: "Playoff";
+  font-weight: 900;
+  font-size: 40px;
+  color: #9dff04;
+}
+
+.panel-tittle-date {
+  font-family: "Playoff";
+  font-weight: 900;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.panel-btn {
+}
+
+.panel-btn-content {
+  display: inline-block;
+  background-color: #ff3e34;
+  color: #ffffff;
+  padding: 14px 22px 0 15px;
+  box-sizing: content-box;
+  font-family: "ESPNPro Loud";
+  font-style: italic;
+  font-size: 14px;
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+
+.panel-footer-tittle {
+  font-family: "ESPNPro Loud";
+  font-style: italic;
+  font-size: 30px;
+  color: #fff;
+}
+
+.panel-footer-content {
+  font-family: "Playoff";
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 10px;
+  color: #fff;
+}
+
+.display-none {
+  display: none;
+}
