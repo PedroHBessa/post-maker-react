@@ -132,14 +132,13 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: red solid 1px;
 }
 
 .panel {
   display: flex;
   flex-direction: column;
   max-width: 1000px;
-  border: red solid 1px;
+
   padding: 20px;
   background-color: #1e1e1e;
   margin-top: 100px;
@@ -164,7 +163,6 @@ button {
 }
 
 .panel-btn {
-  border: red solid 1px;
 }
 
 .panel-btn-content {
